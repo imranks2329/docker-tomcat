@@ -1,6 +1,6 @@
 FROM tomee:8
 
-ADD **/*.war /usr/local/tomcat/webapps
+ADD **/*.war /usr/local/tomee/webapps/
 
 EXPOSE 8080
 
