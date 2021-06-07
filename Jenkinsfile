@@ -14,7 +14,7 @@ pipeline {
         }
         stage('creating docker image for tomcat'){
             steps{
-                sh 'docker build -t mytomcat/tomee:8.1.2. .'
+                sh 'docker build -t mytomcattomee:8.1.2. .'
  
             }
            
